@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div calss="heading">
+	
+	
+</div>
+
+<header>
+  <h1>website</h1>
+  <p>created by pardis</p>
+</header>
+
+<nav>	
+ 
+ <ul>
+	 <a href="#" ><i style="color: #FFFFFF;">authentication</i></a>
+	<a href="#"><i style="color: #FFFFFF;">education</i></a>
+	<a href="#"><i style="color: #FFFFFF;">user setting</i></a>
+	<a href="#"><i style="color: #FFFFFF;">advertisement</i></a>
+	
+</ul>	
+</nav>
+<main class="row">
+<aside>
+    <div class="logo">LOGO</div>
+	<h3>MY LOGO:</h3>
+<svg height="300" width="200">
+  <defs>
+    <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"
+      style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%"
+      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </lineargradient>
+  </defs>
+    <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+
+  <text fill="#AABBAA" font-size="15" font-family="Verdana"
+  x="80" y="115">pardis</text>
+</svg>
+
+<ul >	
+	<li><a href="#">Home</a></li>
+	<li><a href="#">setting</a></li>
+	<li><a href="profile.html">profile</a></li>
+	<li><a href="sign.pardis.html">sign in</a></li>
+	<li><a href="#">About</a></li>
+	</ul>
+</aside>
+<article>
+	
+
+	<div class="row">
+	  <div class="column">
+		<h2>events</h2>
+		<p>some events related to students</p>
+	  </div>
+
+	  <div class="column">
+		<h2>tutorials</h2>
+		<p>for more information about coaches</p>
+	  </div>
+
+	  <div class="column">
+    <h2>general information</h2>
+    <p>information about this website</p>
+  </div>
+</div>
+	<div class="paralex">
+    <h1>paradise</h1>
+   
+	</div>
+</article>
+</main>
+<footer>
+
+</footer>
+	<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <div class="card">
+  <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>pardis mojri</b></h4> 
+    <p>computer engineer</p> 
+  </div>
+</div>
+<div class="pictures">pictures</div>
+<h3>some picture that I like</h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Beautiful view of a wonderfull village</div>
+  </div>
+</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" >
+      <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">A spectacular bridge through the forest</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Nebula phenomenon</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">A relaxing and spectacular view</div>
+  </div>
+</div>
+</div>	
+<div class="form">FORM</div>
+<div id='root'>
+</div>
+</div>
+<form action="/submit" method="POST" name="registration" id='registration'>
+  <label for="name">First name:</label><br>
+  <input type="text" id="fname" name="name" value=""><br><br>
+  <p style="color: red;"><small id="namemsg"></small></p>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" value=""><br><br>
+  <p style="color: red;"><small id="addressmsg"></small></p>
+  <label for="email">Email:</label><br>
+  <input type="text" id="Email" name="email" value=""><br><br>
+  <p style="color: red;"><small id="emailmsg"></small></p>
+  <input name="submit" type="submit" id="submit" class="submit" value="Submit">
+</form> 
+
+</body>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	padding: 80px;
+	background:#BA7399;
+	text-align: center;
+	float: none;
+	color:#E3D4D5;
+}
+.heading{
+	padding: 1px;
+	margin-top: 1px;
+	position: relative;
+	padding:10px 14px;
+	float: left;
+	margin-top: 1px;
+	margin-left: 1px;
+	border-radius: 4px;
+	}
+header h1 {
+  font-size: 80px;
+	
+}
+header p {
+  font-size:60px;
+	
+}
+nav {
+    background-color:#933E64;
+    padding: 0px;
+    color: #C1EDE2;
+    float: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+nav a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 54px;
+    padding-left: 59px;
+    padding-bottom: 14px;
+    text-decoration: none;
+	}
+	/* Right-aligned link */
+nav a.right {
+  float: right;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color:#95446F;
+  color: black;
+}
+nav li{
+		list-style-image: none;
+	}
+
+
+nav ul li:hover > ul {
+	display: none;
+}
+
+ nav ul {
+    background: #E0B6D2;
+    box-shadow: 0px 0px 9px rgba(172,102,103,0.32);
+    padding-top: 20px;
+    padding-right:300px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    -webkit-box-shadow: 0px 0px 9px rgba(172,102,103,0.32);
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background:#95446F;
+	float: left;
+	text-align: center;}
+
+nav ul li:hover a {
+	color: #fff;
+}
+ nav ul li a {
+	display: block;
+	float: left;
+	 text-align: center;
+	padding: 15px 30px;
+	color: #4e4e4e;
+	text-decoration: none;
+}
+
+
+.error{
+    color: red;
+  }
+
+	
+
+	
+
+
+.row {
+  background:#E3C3DB;
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+aside {
+	text-align:center;
+    float: right;
+   -ms-flex: 10%; /* IE10 */
+    flex: 10%;
+    background-color:#E4D4DF;
+    padding: 20px;
+	}
+	
+	aside ul li:hover>ul{
+		display: block;
+		
+	}
+	aside ul li{
+		float:none;
+		position:relative;
+		display:block;
+		text-align: center;
+		
+	}
+	aside ul li:hover{
+		background:#95446F ;
+		
+	}
+	aside ul li:hover a{
+		color:#FFFFFF;
+	}
+	aside ul li a{
+    color: #D8D1D0;
+    display: block;
+    padding: 17px;
+    text-decoration: none;
+    float: none;
+	}
+	aside ul{
+		background:#B38EA2 ;
+		padding:10px ;
+		border-radius: 4px;
+		list-style:none;
+		position:relative;
+		display: inline-table;
+		
+	}
+	aside ul:after{
+		content:"" ;
+		clear:both;
+		display: block;
+		
+	}
+	
+
+	
+
+	aside ul ul li a:hover{
+		background:#bd7260 ;
+	}
+	
+
+article {
+	
+    float: left;
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color:#CBACC1;
+    padding-top: 28px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 28px;
+    height: 100%;
+}
+.paralex{
+	padding:100%;
+	background-image: url("https://www.w3schools.com/css/img_forest.jpg");
+	min-hight:100%;
+	position: relative;
+	opacity:0.65;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	
+	
+article .fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+footer {
+	
+  padding: 20px;
+  text-align: center;
+  background: #42696C;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  aside,article {
+    flex-direction: column;
+	  width: 100%;
+	  height: auto;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+  .button {
+    background-color: #FF69B4;
+    border: none;
+    color: #C4D5DB;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   }
+	
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}	
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 10px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+
+<script src="/script.js"></script>
+</html>
